@@ -3,7 +3,6 @@ const fs = require("fs/promises");
 const path = require("path");
 const contactPath = path.join(__dirname, "db/contacts.json");
 
-// TODO: задокументувати кожну функцію
 const listContacts = async () => {
   const contacts = await fs.readFile(contactPath);
   return JSON.parse(contacts);
