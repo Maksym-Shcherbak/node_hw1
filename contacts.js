@@ -26,10 +26,9 @@ const removeContact = async (contactId) => {
 };
 
 const addContact = async (name, email, phone) => {
-  const id = uuidv4();
-  editedId = id.split("-").join("");
+  const id = uuidv4().split("-").join("");
   const newContact = {
-    editedId,
+    id,
     name,
     email,
     phone,
