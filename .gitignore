@@ -1,0 +1,7 @@
+#Junk
+.DS_Store
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
